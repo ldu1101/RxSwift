@@ -665,6 +665,7 @@
 		E5458C7C2BD0B84F0058AD52 /* ImmediateSchedulerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5458C692BD0B84F0058AD52 /* ImmediateSchedulerType.swift */; };
 		E5458C7D2BD0B84F0058AD52 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5458C6A2BD0B84F0058AD52 /* Errors.swift */; };
 		E5458C7E2BD0B84F0058AD52 /* AnyObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5458C6B2BD0B84F0058AD52 /* AnyObserver.swift */; };
+		E5458C822BD0B9FA0058AD52 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E5458C812BD0B9FA0058AD52 /* PrivacyInfo.xcprivacy */; };
 		ECBBA59B1DF8C0BA00DDDC2E /* UITabBarController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA59A1DF8C0BA00DDDC2E /* UITabBarController+Rx.swift */; };
 		ECBBA59E1DF8C0D400DDDC2E /* RxTabBarControllerDelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA59D1DF8C0D400DDDC2E /* RxTabBarControllerDelegateProxy.swift */; };
 		ECBBA5A11DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBA5A01DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift */; };
@@ -1179,6 +1180,7 @@
 		E5458C692BD0B84F0058AD52 /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmediateSchedulerType.swift; sourceTree = "<group>"; };
 		E5458C6A2BD0B84F0058AD52 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		E5458C6B2BD0B84F0058AD52 /* AnyObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
+		E5458C812BD0B9FA0058AD52 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ECBBA59A1DF8C0BA00DDDC2E /* UITabBarController+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+Rx.swift"; sourceTree = "<group>"; };
 		ECBBA59D1DF8C0D400DDDC2E /* RxTabBarControllerDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTabBarControllerDelegateProxy.swift; sourceTree = "<group>"; };
 		ECBBA5A01DF8C0FF00DDDC2E /* UITabBarController+RxTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+RxTests.swift"; sourceTree = "<group>"; };
@@ -1302,6 +1304,7 @@
 			children = (
 				C8093C661B8A72BE0088E94D /* Info.plist */,
 				E5458C6B2BD0B84F0058AD52 /* AnyObserver.swift */,
+				E5458C812BD0B9FA0058AD52 /* PrivacyInfo.xcprivacy */,
 				E5458C622BD0B84F0058AD52 /* Cancelable.swift */,
 				E5458C642BD0B84F0058AD52 /* ConnectableObservableType.swift */,
 				E5458C5C2BD0B84F0058AD52 /* Date+Dispatch.swift */,
@@ -2345,6 +2348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5458C822BD0B9FA0058AD52 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
